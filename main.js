@@ -32,7 +32,7 @@ function preencheLista(lista, estoqueDaPessoa) {
     for (let i=0; i < estoqueDaPessoa.length; i++){
         const monte = estoqueDaPessoa[i];
         const li = document.createElement('li');
-        li.textContent = `${monte.tipo}: ${monte.qnt}`;
+        li.textContent = `${monte.tipo}: ${monte.qtd}`;
         lista.append(li);
     }
 }
